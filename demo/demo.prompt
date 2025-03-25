@@ -1,0 +1,16 @@
+given 3 points A,B,C with co-ordinates x1,y1 , x2,y2 and x3,y3. Find if we join whether it makes an 
+isoscles and right angled triangle
+
+steps: 
+
+get the co-ordinates for A,B,C
+find the distance between A and B using distance formula similarly B and C and C and A
+name it as AB , BC, CA
+if AB=BC OR BC=CA OR CA=AB show it as isosceles
+Find max of (AB,BC,CA)
+if square(max) = square(other) + square(other) then it is right
+if both statisfies it is isoscles right
+nothing statisfies it is simply a triangle
+
+
+
