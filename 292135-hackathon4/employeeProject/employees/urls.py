@@ -7,6 +7,3 @@ urlpatterns = [
     path('calculate/', views.calculate_net_salary, name='calculate'),
     path('jumble/', views.jumble_word, name='jumble'),
 ]
-
-
-
